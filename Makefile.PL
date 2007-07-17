@@ -12,8 +12,7 @@ recommends		('Pod::PlainText');
 
 my ($lp) = $INC{'RT.pm'} =~ /^(.*)[\\\/]/;
 my $lib_path = join( ' ', "$RT::LocalPath/lib", $lp );
-Configure( { RT_LIB_PATH => $lib_path }, 'sbin/rt-notify-group-admin');
+substitute( { RT_LIB_PATH => $lib_path }, 'sbin/rt-notify-group-admin');
 
-skip( qr/\.in$/ );
 
 &WriteAll;
