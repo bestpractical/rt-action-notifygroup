@@ -5,6 +5,12 @@ Abbreviations
 
 Revision history for Perl module RT::Action::NotifyGroup
 
+0.03
+
+    * fix: update packaging with newer Module::Install
+
+0.02
+
 	* fea: Output script usage help if Pod::PlainText installed
 		or perldoc hint in other case
 	* upd: new documentaton for admin script
