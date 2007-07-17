@@ -26,7 +26,6 @@ rt-notify-group-admin
 use warnings;
 use strict;
 ### replace: use lib qw(@RT_LIB_PATH@);
-use lib qw(/opt/rt3/local/lib /opt/rt3/lib);
 
 use RT;
 RT::LoadConfig;
