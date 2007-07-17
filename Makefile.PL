@@ -5,6 +5,7 @@ $ENV{'WITH_SUBDIRS'} = 'sbin,lib';
 RTx                     ('RT-Action-NotifyGroup');
 author                  ('Ruslan U. Zakirov <cubic@wildgate.miee.ru>');
 license                 ('perl');
+version_from            ('lib/RT/Action/NotifyGroup.pm');
 
 requires                ('Getopt::Long');
 requires                ('Storable');
